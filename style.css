@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Share+Tech+Mono&family=Silkscreen:wght@400;700&family=Spicy+Rice&display=swap');
+table {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+
+body {
+    background-color: #E4FFE9;
+}
+
+.placasBody td {
+    width: 9.09%;
+    height: 9.09vh;
+}
+
+td {
+    width: 10%;
+    height: 10%;
+}
+
+.nav  {
+    background-color: #429952;
+}
+
+header {
+    height: 100px;
+    
+}
+
+.logo {
+    position: relative;
+    width: 200px;
+    height: 90px;
+    background-color: #E4FFE9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 42.00%;
+    top: -20px;
+    border-radius: 0 0px 20px 20px;
+}
+
+.escritas a {
+    text-decoration: none;
+    padding-left: 50px;
+    color: black;
+    position: relative;
+    top: 50px;
+}
+
+
+
+.nomeMarca {
+    position: relative;
+    left: 60%;
+    top: -120px;
+    font-family: 'Share Tech Mono';
+    font-size: 50px;
+    font-weight: 100;
+    width: 30%;
+}
+
+.iconeHome {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: 80%;
+    top: -200px;
+}
+
+.home h5 {
+    position: relative;
+    left: 31.2%;
+    top: -225px;
+    font-size: 16px;
+}
+
+.nossosProdutos {
+    background-color: #65FF81;
+    text-align: center;
+    border-radius: 300px;
+    border: none;
+    font-size: 20px;
+}
+
+.nossosProdutos h2 {
+    font-family: 'Share Tech Mono';
+    font-weight: 200;
+    font-size: 40px;
+}
+
+
+.produtos {
+    background-color: #98EBA7;
+    text-align: center;
+    border-radius: 100px;
+    font-family: 'Share Tech Mono';
+    font-size: 25px;
+}
+
+.produtos h2 {
+    position: relative;
+    top: -30px;
+    font-weight: 200;
+    color: #000;
+}
+
+.produtos a {
+    text-decoration: none;
+}
+
+.imagemProduto{
+    position: relative;
+    top: -40px;
+}
+
+.imagemProduto img {
+    height: 200px;
+}
+
+.vector {
+    position: relative;
+    top: 130px;
+    right: 180px;
+}
+
+.login {
+    position: relative;
+    top: -210px;
+    left: 1600px;
+    background-color:#2C6236 ;
+    width: 180px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.login h4 {
+    font-weight: lighter;
+    font-family: 'Share Tech Mono';
+}
+
+.pessoa {
+    height: 700px;
+    display: block;
+    justify-content:center ;
+    position: relative;
+    left: 13%;
+}
+
+.fundoPessoa {
+    background-color: #429952;
+    width: 600px;;
+    height: 700px;
+    display: block;
+    justify-content:center ;
+    border-radius: 8000px 8000px 0 0;
+    position: relative;
+    top: 35px;
+}
+
+.quemSomos  {
+    background-color: #65FF81;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 300px;
+    position: relative;
+    left: 22%;
+}
+
+.quemSomos h2 {
+    font-family: 'Share Tech Mono';
+    font-weight: 200;
+    font-size: 40px;
+    
+}
+
+p {
+    width: 700px;
+    text-align: justify;
+    font-size: 18px;
+    position: relative;
+}
+
+.saibaMais {
+    background-color:#429952 ;
+    position: relative;
+    top: -70px;
+}
+
+.saibaMais h4 {
+    color: white;
+    font-family: 'Silkscreen';
+    font-size: 30px;
+    position: relative;
+    top: -33px;
+    left: 14%;
+}
+
+.divSaibaMais {
+    height: 10px;
+}
+
+.login {
+    cursor: pointer;
+    position: relative;
+    top: -315px;
+}
+
+.tdContato {
+    background-color: #98EBA7;
+    box-shadow: 20px 30px  #429952;
+    border-radius: 100px;
+}
+
+.tamanho {
+    height: 300px;
+}
+
+.imagemTelefone {
+    width: 350px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+
+.contato h2 {
+    font-family: 'Share Tech Mono';
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.contato  {
+    background-color: #65FF81;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 300px;
+    position: relative;
+    left: 17%;
+    top: -15px;
+}
+
+.formulario {
+
+    width: 60%;
+    height: 600px;
+    display: flex;
+    position: relative;
+    left: 40%;
+    top: -300px;
+}
+
+.formulario input {
+    width: 300px;
+    margin-top: -70px;
+}
+
+.formulario h4 {
+    font-family: 'Share Tech Mono';
+    font-weight: 200;
+    font-size: 40px;
+    
+}
+
+.email {
+    position: relative;
+    
+}
+
+.linha {
+    display: flex;
+    gap: 50px;
+}
+
+.formulario .mensagem h4{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+
+.formulario .mensagem input {
+    display: block;
+    margin: auto;
+}
+
+
+.formulario input {
+    width: 300px;
+    border: none; 
+    border-bottom: 2px solid #000; 
+    background-color: transparent; 
+    padding: 5px 0; 
+    outline: none; 
+    font-size: 16px; 
+}
+
+
+.formulario input:focus {
+    border-bottom-color: #429952; 
+    border-bottom-width: 3px;
+}
+
+
+.placas {
+    background-color: #65FF81;
+    text-align: center;
+    border-radius: 300px;
+    border: none;
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+    
+}
+
+.placas h2 {
+    font-family: 'Share Tech Mono';
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.fundoPlacasProcessadores {
+    background-color: #98EBA7;
+    border-radius: 50px;
+    width: 50%;
+    border: none;
+    position: relative;
+    top: 20px;
+    
+}
+
+.fundoPlacasProcessadores .imagensPlacas {
+  display: block;
+  margin: auto;
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Share Tech Mono';
+    font-size: 16px;
+}
+
+.preco{
+    font-family: 'Spicy Rice';
+    font-weight: 100;
+}
+
+
+.rodape {
+    font-family: 'Share Tech Mono';
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.telefone {
+    font-family: 'Share Tech Mono';
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.rodapeNav td {
+    height: 0.5vh;
+}
+
+
+.divLogoRodape{
+    background: #E4FFE9;
+    width: 120px;
+    height: 4.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.alinhar {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+
+.logoRodape {
+    width: 70px;
+}
